@@ -1,0 +1,99 @@
+/* IMPOSTAZIONI GENERALI */
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* IMPOSTAZIONI SFONDO */
+
+.all{
+  background-image: url(background.jpg);
+  background-size:cover;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+}
+
+/* IMPOSTAZIONI OVERLAY */
+
+.overlay{
+  background-color: rgbA(0,0,0,0.5);
+  border-radius: 20px;
+  position:absolute;
+  top: 50vh;
+  left:50vw;
+  transform: translate(-50%, -50%);
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 10vh;
+  padding-top: 10vh;
+  width: 70vw;
+}
+
+/* IMPOSTAZIONI LOGO */
+
+#logo {
+  width: 200px;
+}
+
+/* IMPOSTAZIONI TITOLO */
+
+header {
+  line-height: 20px;
+  text-align: center;
+}
+
+h1{
+  color: rgb(0,215,0);
+  line-height: 40px;
+}
+
+/*IMPOSTAZIONI MENU */
+
+nav{
+  background-color: rgb(0,215,0);
+  text-align: center;
+  line-height: 40px;
+  margin: 2vh 0px 4vh;
+
+}
+
+/* IMPOSTAZIONI TESTO CONTENUTO */
+
+.mono{
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  height: 3vh;
+
+}
+
+h3{
+  color: white;
+  height: 3vh;
+}
+
+/* IMPOSTAZIONI BARRA DELLA CARICA */
+
+#carica1{
+  background-color: orange;
+  width: 23vw;
+}
+
+#carica2{
+  background-color: rgb(0,215,0);
+  width: 43vw;;
+}
+
+#carica3{
+  background-color: rgb(180,0,0);
+  width: 13vw;
+}
+
+.carica{
+  border-radius: 10px;
+  height: 30px;
+  position: relative;
+  margin-bottom: 4vh;
+}
